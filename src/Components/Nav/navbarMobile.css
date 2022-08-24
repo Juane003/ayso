@@ -1,0 +1,43 @@
+body {
+  margin: 0 ;
+}
+
+.main-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  height: 3rem;
+  width: 3rem;
+  background-color: red;
+  border:none
+}
+
+img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.options-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  width: 100%;
+  padding: 1rem;
+  margin-left: 5%;
+  border: 1px solid black;
+}
+
+a:last-child {
+  border-top: 0px;
+}
+
+a:first-child, a:nth-child(2) {
+  border-bottom: 0px;
+}
