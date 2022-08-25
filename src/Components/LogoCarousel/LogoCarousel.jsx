@@ -1,9 +1,9 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
-import macLogo from 'C:/Users/54336/Desktop/projects/personal-projects/ayso-tp-2/src/assets/Apple_logo_black.svg';
-import linuxLogo from 'C:/Users/54336/Desktop/projects/personal-projects/ayso-tp-2/src/assets/Linux_Logo_in_Linux_Libertine_Font.svg';
-import windowsLogo from 'C:/Users/54336/Desktop/projects/personal-projects/ayso-tp-2/src/assets/windows.svg';
+import macLogo from 'C:/Users/jemil/Desktop/projects/ayso/src/assets/Apple_logo_black.svg';
+import linuxLogo from 'C:/Users/jemil/Desktop/projects/ayso/src/assets/Linux_Logo_in_Linux_Libertine_Font.svg';
+import windowsLogo from 'C:/Users/jemil/Desktop/projects/ayso/src/assets/windows.svg';
 
 const imageStyle = {
   'height' : '3rem',

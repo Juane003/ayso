@@ -3,6 +3,13 @@
 body {
   margin: 0 ;
   font-family: 'Roboto', sans-serif;
+  overflow:visible;
+}
+
+.sticky {
+  background-color: azure;
+  position: sticky;
+  top: 0;
 }
 
 .main-wrapper {
@@ -11,7 +18,7 @@ body {
   justify-content: space-between;
 }
 
-button {
+.menu-btn {
   height: 3rem;
   width: 3rem;
   border:none

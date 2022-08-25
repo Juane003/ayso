@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.separator {
+    background-color: grey ;
+    width: 100%;
+    height: 1rem;
+}

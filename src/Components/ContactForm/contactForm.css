@@ -1,0 +1,27 @@
+.form-wrapper {
+    margin-top: 5%; 
+    margin-bottom: 5%;
+}
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.email-input {
+    height: 5%;
+    width: 40%;
+    margin-bottom: 3%;
+}
+
+.message-input {
+    margin-bottom: 3%;
+    height: 10rem;
+}

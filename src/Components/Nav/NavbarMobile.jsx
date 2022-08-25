@@ -2,7 +2,7 @@ import { useState } from "react";
 import { LogoCarousel } from "../LogoCarousel";
 import './navbarMobile.css'
 import 'animate.css';
-import buttonLogo from 'C:/Users/54336/Desktop/projects/personal-projects/ayso-tp-2/src/assets/menu-icon.svg';
+import buttonLogo from 'C:/Users/jemil/Desktop/projects/ayso//src/assets/menu-icon.svg';
 import useAnimation from "../../Hooks/useAnimation";
 
 const NavbarMobile = () => {
@@ -21,16 +21,16 @@ const NavbarMobile = () => {
   }
 
   return (
-    <div>
+    <div className="sticky">
       <div className="main-wrapper">
         <LogoCarousel/>
-        <button onClick={handleClick} className={isActive ? "active" : null}><img src={buttonLogo}/></button>
+        <button onClick={handleClick} className={`menu-btn ${isActive ? "active" : null}`}><img src={buttonLogo}/></button>
       </div>
       {shouldRender &&
-      <div style={showOptions ? entranceAnimation : exitAnimation} className={`options-wrapper animate__animated`}>
-        <a href="">Inicio</a>
-        <a href="">Lorem Ipsum</a>
-        <a href="">Lorem Ipsum</a>
+      <div onClick={handleClick} style={showOptions ? entranceAnimation : exitAnimation} className={`options-wrapper animate__animated `}>
+        <a href="#home">Inicio</a>
+        <a href="#presentacion">Presentation</a>
+        <a href="#contacto">Contacto</a>
         <a href="">Sobre Nosotros</a>
       </div> 
       }

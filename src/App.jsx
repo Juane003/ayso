@@ -1,8 +1,18 @@
-import { NavbarMobile } from './Components'
+import { ContactForm, Home, NavbarMobile, Presentation } from './Components'
+import "./index.css";
 
-function App() {
+const App = () => {
+
   return (
-    <NavbarMobile/>
+    <div>
+      <NavbarMobile/>
+      <div className='separator'></div>
+      <Home/>
+      <div className='separator'></div>
+      <Presentation/>
+      <div className='separator'></div>
+      <ContactForm/>
+    </div>
   )
 }
 
