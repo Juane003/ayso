@@ -2,7 +2,7 @@ import { useState } from "react";
 import { LogoCarousel } from "../LogoCarousel";
 import './navbarMobile.css'
 import 'animate.css';
-import buttonLogo from 'C:/Users/jemil/Desktop/projects/ayso//src/assets/menu-icon.svg';
+import ButtonLogo from 'C:/Users/54336/Desktop/projects/personal-projects/ayso/src/assets/menu-icon.svg';
 import useAnimation from "../../Hooks/useAnimation";
 
 const NavbarMobile = () => {
@@ -24,7 +24,7 @@ const NavbarMobile = () => {
     <div className="sticky">
       <div className="main-wrapper">
         <LogoCarousel/>
-        <button onClick={handleClick} className={`menu-btn ${isActive ? "active" : null}`}><img src={buttonLogo}/></button>
+        <button onClick={handleClick} className={`menu-btn ${isActive ? "active" : null}`}><img src={ButtonLogo}/></button>
       </div>
       {shouldRender &&
       <div onClick={handleClick} style={showOptions ? entranceAnimation : exitAnimation} className={`options-wrapper animate__animated `}>

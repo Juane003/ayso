@@ -4,13 +4,28 @@
     align-items: center;    
 }
 
-.download-btn {
+.slide-carousel {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
-    border: none;
-    border-radius: 20%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 0.5rem;
-    height: 3rem;
+.slide-img {
+    height: 15rem;
+}
+
+.download-btn {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 30%;
+    height: 2rem;
     width: 6rem;
+    margin: 5% 0;
+    border: none;
+    background-color: aqua;
+}
+.download-btn:active {
+    background-color: aquamarine;
 }
