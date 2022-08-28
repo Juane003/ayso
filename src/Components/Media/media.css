@@ -1,5 +1,12 @@
+.media-logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1%;
+}
+
 .media-logo {
     margin: 5%;
-    height: 3rem;    
-    width: 3rem;
+    height: 2rem;    
+    width: 2rem;
 }

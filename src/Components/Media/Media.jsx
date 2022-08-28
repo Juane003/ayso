@@ -1,15 +1,14 @@
-import gitLogo from 'C:/Users/jemil/Desktop/projects/ayso/src/assets/github.svg';
-import linkedInLogo from 'C:/Users/jemil/Desktop/projects/ayso/src/assets/linkedin-svgrepo-com.svg'
+import { githubLogo, linkedinLogo } from '@/assets/logos';
 import './media.css';
 
 const Media = () => {
     return (
-        <div>
-            <a href="">
-                <img src={gitLogo} className="media-logo"/> 
+        <div className='media-logo-wrapper'>
+            <a href="https://github.com/Juane003/ayso.git" target="_blank">
+                <img src={githubLogo} className="media-logo" /> 
             </a>
-            <a href="">
-                <img src={linkedInLogo} className="media-logo"/> 
+            <a href="https://www.linkedin.com/in/juan-emilio-rivero-05b308237" target="_blank">
+                <img src={linkedinLogo} className="media-logo"/> 
             </a>
         </div>
 
