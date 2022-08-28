@@ -1,4 +1,4 @@
-import { ContactForm, Home, NavbarMobile, Presentation } from './Components'
+import { ContactForm, ContactList, Home, NavbarMobile, Presentation, Media } from './Components';
 import "./index.css";
 
 const App = () => {
@@ -12,6 +12,10 @@ const App = () => {
       <Presentation/>
       <div className='separator'></div>
       <ContactForm/>
+      <div className='separator'></div>
+      <ContactList/>
+      <div className='separator'></div>
+      <Media/>
     </div>
   )
 }

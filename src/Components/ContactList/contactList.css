@@ -1,0 +1,6 @@
+.contacts-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 5%;
+}
+

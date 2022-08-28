@@ -2,7 +2,7 @@ import { useState } from "react";
 import { LogoCarousel } from "../LogoCarousel";
 import './navbarMobile.css'
 import 'animate.css';
-import ButtonLogo from 'C:/Users/54336/Desktop/projects/personal-projects/ayso/src/assets/menu-icon.svg';
+import ButtonLogo from 'C:/Users/jemil/Desktop/projects/ayso/src/assets/menu-icon.svg';
 import useAnimation from "../../Hooks/useAnimation";
 
 const NavbarMobile = () => {
@@ -28,10 +28,9 @@ const NavbarMobile = () => {
       </div>
       {shouldRender &&
       <div onClick={handleClick} style={showOptions ? entranceAnimation : exitAnimation} className={`options-wrapper animate__animated `}>
-        <a href="#home">Inicio</a>
-        <a href="#presentacion">Presentation</a>
-        <a href="#contacto">Contacto</a>
-        <a href="">Sobre Nosotros</a>
+        <a className="link-to-section" href="#home">Inicio</a>
+        <a className="link-to-section" href="#presentacion">Presentacion</a>
+        <a className="link-to-section" href="#contacto">Contacto</a>
       </div> 
       }
     </div>

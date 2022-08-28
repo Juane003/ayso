@@ -4,12 +4,14 @@ body {
   margin: 0 ;
   font-family: 'Roboto', sans-serif;
   overflow:visible;
+  background-color: #789dca;
 }
 
 .sticky {
-  background-color: azure;
+  background-color: #ffa424;
   position: sticky;
   top: 0;
+  padding: 1rem ;
 }
 
 .main-wrapper {
@@ -19,13 +21,14 @@ body {
 }
 
 .menu-btn {
+  background-color  :#ffa424;
   height: 3rem;
   width: 3rem;
   border:none
 }
 
 .active {
-  background-color: red;
+  background-color: #ec8800;
 }
 
 img {
@@ -34,12 +37,12 @@ img {
 }
 
 .options-wrapper {
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-a {
+.link-to-section {
   text-decoration: none;
   width: 100%;
   padding: 1rem;
@@ -47,10 +50,10 @@ a {
   border: 1px solid black;
 }
 
-a:last-child {
+.link-to-section:last-child {
   border-top: 0px;
 }
 
-a:first-child, a:nth-child(2) {
+.link-to-section:first-child{
   border-bottom: 0px;
 }
