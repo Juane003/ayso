@@ -14,7 +14,7 @@ import Diapositiva13 from '@/assets/slides/Diapositiva13.PNG';
 import Diapositiva14 from '@/assets/slides/Diapositiva14.PNG';
 import Diapositiva15 from '@/assets/slides/Diapositiva15.PNG';
 import Diapositiva16 from '@/assets/slides/Diapositiva16.PNG';
-import Diapositiva17 from '@/assets/slides/Diapositiva17.PNG';
+import Diapositiva17 from '@/assets/slides/Diapositiva17.png';
 
 export {
   Diapositiva1,
