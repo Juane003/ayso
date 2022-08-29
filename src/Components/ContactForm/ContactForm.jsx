@@ -7,15 +7,15 @@ const ContactForm = () => {
 	const form = useRef();
 
 	const sendEmail = (e) => {
-    e.preventDefault();
+		e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_gd89ud4', form.current, 'O278GCkvF05nJxnxD')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-		e.target.reset();
+		emailjs.sendForm('service_htwvb91', 'template_gd89ud4', form.current, 'O278GCkvF05nJxnxD')
+		.then((result) => {
+			console.log(result.text);
+		}, (error) => {
+			console.log(error.text);
+		});
+			e.target.reset();
   };
 
 	return (
@@ -23,7 +23,7 @@ const ContactForm = () => {
 			<h1 className="contact-title">Contacto</h1>
 			<form ref={form} onSubmit={sendEmail}>
 				<input className="email-input" name="email" type="email" placeholder="Email" id="email" required></input>
-				<textarea className="message-input" name="message" type="text" placeholder="Escribe tu mensaje aqui!" required/>
+				<input className="message-input" name="message" id="message" type="text" placeholder="Escribe tu mensaje aqui!" required/>
 				<div className="submit-container">
 					<input className="submit-input" type="submit" value="Enviar"/>
 				</div>
