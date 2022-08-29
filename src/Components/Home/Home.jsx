@@ -4,18 +4,18 @@ const Home = () => {
     return (
         <div className="home-wrapper" id="home">
             <h1 className="title">Introduccion</h1>
-            <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Lectus nulla at volutpat diam ut. Aliquet enim tortor at auctor urna nunc.
-            In nisl nisi scelerisque eu ultrices vitae.
-            Enim neque volutpat ac tincidunt vitae semper. 
-            Magnis dis parturient montes nascetur. 
-            Egestas erat imperdiet sed euismod nisi porta lorem. 
-            Amet tellus cras adipiscing enim eu turpis egestas pretium. 
-            Feugiat scelerisque varius morbi enim. 
-            Eget mauris pharetra et ultrices neque ornare aenean euismod elementum.
-            Nisl suscipit adipiscing bibendum est.
-            </p>
+                <p className="text">
+                    El desarrollo de los sistemas operativos ha supuesto un gran desafío a lo largo de los años debido a la complejidad de las tareas y las problemáticas que éstos deben afrontar y resolver.<br></br> <br></br>
+                    En el siguiente trabajo, no abocaremos a tratar los cinco principales avances teóricos que se han dado en la esfera del desarrollo de sistemas operativos, lo cual nos permitirá entender un poco mejor el papel que éstos cumplen. <br></br><br></br>
+                    Cada uno de los avances antes referidos se caracteriza por principios que se han desarrollado para la resolución de problemáticas práctica. Estos avances, que representan los aspectos claves de diseño e implementación de los sistemas operativos modernos, son los siguientes: 
+                </p>
+                <ul>
+                        <li>Procesos</li>
+                        <li>Gestión de memoria</li>
+                        <li>Protección y seguridad de la información</li>
+                        <li>Planificación y gestión de los recursos</li>
+                        <li>Estructura del sistema</li>
+                    </ul>
         </div>
     )
 }

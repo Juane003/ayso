@@ -15,19 +15,17 @@
 }
 
 .download-btn {
+    font-weight: bold;
     text-align: center;
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: black;
-    border-radius: 30%;
-    height: 2rem;
-    padding: 1rem;
+    color: #ffa424;
+    border-radius: 5%;
+    height: 1rem;
+    padding: 1.5rem;
     width: 6rem;
     margin: 5% 0;
-    border: none;
-    background-color: #ffa424;
-}
-.download-btn:active {
-    background-color: #ec8800;
+    border: 1px solid #ffa424;
+    background-color: #789dca;
 }

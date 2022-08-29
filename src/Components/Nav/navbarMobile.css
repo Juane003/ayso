@@ -11,7 +11,10 @@ body {
   background-color: #ffa424;
   position: sticky;
   top: 0;
-  padding: 1rem ;
+  padding: 1rem;
+}
+.remove-bottom {
+  padding-bottom: 0;
 }
 
 .main-wrapper {
@@ -46,12 +49,13 @@ img {
   text-decoration: none;
   width: 100%;
   padding: 1rem;
-  margin: none  ;
+  margin: none;
   border: 1px solid black;
 }
 
 .link-to-section:last-child {
   border-top: 0px;
+  
 }
 
 .link-to-section:first-child{

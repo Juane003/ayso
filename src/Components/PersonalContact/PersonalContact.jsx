@@ -1,11 +1,9 @@
 import './personalContact.css'
 
-import laitoPic from "@/assets/pictures/WhatsApp Image 2022-08-27 at 17.55.44.jpeg"
-
-const PersonalContact = ({ picture, name, email } ) => {
+const PersonalContact = ({ picture, name, email, className } ) => {
 	return (
 		<div className="personal-contact-wrapper">
-			<img className="picture" src={laitoPic} />
+			<img className={`picture ${className}`} src={picture} />
 			<div className="contact-wrapper">
 				<a href={`https://mail.google.com/mail/?view=cm&source=mailto&to=${email}`} target="_blank"className="link-to-mail">{name}</a>	
 			</div>
