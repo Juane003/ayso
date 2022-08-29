@@ -34,7 +34,7 @@ const Presentation = () => {
                 <img src={Diapositiva16} className="slide-img"/>
 
             </Carousel>
-            <a href="https://frsnutneduar-my.sharepoint.com/:p:/r/personal/jrivero_frsn_utn_edu_ar/_layouts/15/Doc.aspx?sourcedoc=%7BFA21FF19-02F4-4215-99B8-99BEE1EEA15A%7D&file=INTRODUCCION%20A%20LOS%20S.O.%20(5)%20-%20Copia.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1&login_hint=jrivero%40frsn.utn.edu.ar&ct=1661789522292&wdOrigin=OFFICECOM-WEB.START.EDGEWORTH&cid=e780aee6-343e-48d9-b117-351f1c9f92d4" target="_blank" className="download-btn">Abrir Presentacion</a>
+            <a href="https://frsnutneduar-my.sharepoint.com/:p:/g/personal/EVBkuvOlpipCmXNJ9kxJ9OYBZysxXG5jIbLmaS2PNs_C-A?e=aAsci8" className="download-btn" target="_blank">Abrir Presentacion</a>
         </div>
     )
 }
