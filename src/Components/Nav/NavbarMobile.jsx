@@ -30,8 +30,8 @@ const NavbarMobile = () => {
       </div>
       {shouldRender &&
       <div onClick={handleClick} style={showOptions ? entranceAnimation : exitAnimation} className={`options-wrapper animate__animated `}>
-        <a className="link-to-section" href="#home">introduccion</a>
-        <a className="link-to-section" href="#presentacion">Presentacion</a>
+        <a className="link-to-section" href="#home">Introducción</a>
+        <a className="link-to-section" href="#presentacion">Presentación</a>
         <a className="link-to-section" href="#contacto">Contacto</a>
       </div> 
       }

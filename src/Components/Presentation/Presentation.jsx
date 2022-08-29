@@ -5,7 +5,7 @@ import "./presentation.css";
 const Presentation = () => {
     return(
         <div className="presentation-wrapper" id="presentacion">
-            <h1>Presentacion</h1>
+            <h1>Presentación</h1>
             <Carousel
                 className="slide-carousel"
                 autoPlay 
