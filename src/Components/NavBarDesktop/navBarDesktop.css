@@ -1,0 +1,36 @@
+.sticky {
+  background-color: #ffa424;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+}
+
+.main-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  background-color: #ec8800;
+}
+
+img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.options-wrapper-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link-to-section-2 { 
+  text-decoration: none;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: none;
+}

@@ -20,7 +20,6 @@ const ContactForm = () => {
 
 	return (
 		<div className="form-wrapper" id="contacto">
-			<h1 className="contact-title">Contacto</h1>
 			<form ref={form} onSubmit={sendEmail}>
 				<input className="email-input" name="email" type="email" placeholder="Email" id="email" required></input>
 				<input className="message-input" name="message" id="message" type="text" placeholder="Escribe tu mensaje aqui!" required/>

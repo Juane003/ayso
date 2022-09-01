@@ -29,3 +29,29 @@
     border: 1px solid #ffa424;
     background-color: #789dca;
 }
+
+
+@media screen and (min-width: 768px) {
+    .slide-img {
+        height: 100%;
+    }
+
+    .slide-carousel {
+        width: 50%;
+    }
+
+    .download-btn {
+        margin: 3% 0;
+    }
+
+    .download-btn:hover {
+        color: #789dca;
+        background-color: #ffa424;
+        transition: 300ms;
+    }
+
+    .download-btn:active {
+        background-color: #ffa424;
+        transition: 300ms;
+    }
+}

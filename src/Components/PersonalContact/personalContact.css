@@ -16,8 +16,37 @@
 .picture {
     height: 3rem;
     width: 3rem;
+    border-radius: 5%;
+    border: 1px solid white;
 }
 
 .link-to-mail {
     text-decoration: none;
+}
+
+
+@media screen and (min-width: 768px){
+    .picture {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .contact-wrapper {
+        margin-left: 5%;
+    }
+
+    .personal-contact-wrapper {
+        margin: 3%;
+        padding: 1.5rem;
+    }
+
+    .personal-contact-wrapper:first-child{
+        margin-top:30%
+    }
+
+    .personal-contact-wrapper:nth-child(2) {
+        margin-top: 30%;
+    }
+
+
 }

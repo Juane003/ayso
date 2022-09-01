@@ -43,6 +43,7 @@ form {
 
 .email-input:focus, .message-input:focus {
     border: 1px solid #ffa424;
+    transition: 300ms;  
 }
 
 .email-input {
@@ -63,4 +64,32 @@ form {
     background-color: #789dca;
     border: 1px solid #ffa424;
     border-radius: 3%;
+}
+
+@media screen and (min-width: 768px) {
+    .email-input {
+        height: 5%;
+        width: 50%;
+    }  
+     
+    .message-input{
+        margin-bottom: 3%;
+        width: 40rem;
+        height: 20rem;
+    } 
+    
+    .submit-input {
+        width: 50%;
+    }
+
+    .submit-input:hover {
+        color: #789dca;
+        background-color: #ffa424;
+        transition: 300ms;
+    }
+
+    .submit-container {
+        display: flex;
+        justify-content: flex-start;
+    }
 }

@@ -1,17 +1,19 @@
 import { LogoCarousel } from "./LogoCarousel";
-import { NavbarMobile } from "./Nav";
+import { NavBar } from "./NavBar";
+import { NavbarMobile } from "./NavBarMobile";
+import { NavBarDesktop } from "./NavBarDesktop";
 import { Home } from "./Home";
 import { Presentation } from "./Presentation";
-import { ContactForm } from "./ContactForm";
-import { ContactList } from "./ContactList";
+import { Contacts } from "./Contacts";
 import { Media } from "./Media";
 
 export {
   LogoCarousel,
+  NavBar,
   NavbarMobile,
+  NavBarDesktop,
   Home,
   Presentation,
-  ContactForm,
-  ContactList,
+  Contacts,
   Media
 }
