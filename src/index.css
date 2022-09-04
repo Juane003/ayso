@@ -1,6 +1,10 @@
 html {
     scroll-behavior: smooth;
 }
+ 
+a {
+    color: white;
+}
 
 .separator {
     background-color: #121212;
