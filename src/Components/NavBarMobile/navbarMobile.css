@@ -4,11 +4,12 @@ body {
   margin: 0 ;
   font-family: 'Roboto', sans-serif;
   overflow:visible;
-  background-color: #789dca;
+  background-color: #001E3C;
+  color: #FFFF;
 }
 
 .sticky {
-  background-color: #ffa424;
+  background-color: #E4650E;
   position: sticky;
   top: 0;
   padding: 1rem;
@@ -24,7 +25,7 @@ body {
 }
 
 .menu-btn {
-  background-color  :#ffa424;
+  background-color  :#E4650E;
   height: 3rem;
   width: 3rem;
   border:none
@@ -32,6 +33,7 @@ body {
 
 .active {
   background-color: #ec8800;
+  border-radius: 10%;
 }
 
 img {

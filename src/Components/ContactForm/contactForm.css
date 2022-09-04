@@ -20,8 +20,8 @@ form {
     justify-content: center;
 }
 
-::placeholder {
-    color: #ffa424;
+::placeholder { 
+    color: #E4650E;
     opacity: 1;
 }
 
@@ -35,14 +35,14 @@ form {
     margin-bottom: 3%;
     padding: 0.5rem;
     border: 1px solid white;
-    background-color: #333333;
-    color: #789dca;
+    background-color: #121212;
+    color: #E4650E;
     outline: none;
     border-radius: 2%;
 }
 
 .email-input:focus, .message-input:focus {
-    border: 1px solid #ffa424;
+    border: 1px solid #E4650E;
     transition: 300ms;  
 }
 
@@ -60,9 +60,9 @@ form {
     width: 50%;
     font-weight: bold;
     padding: 0.5rem;
-    color: #ffa424;
-    background-color: #789dca;
-    border: 1px solid #ffa424;
+    color: #E4650E;
+    background-color: transparent;
+    border: 1px solid #E4650E;
     border-radius: 3%;
 }
 
@@ -83,8 +83,8 @@ form {
     }
 
     .submit-input:hover {
-        color: #789dca;
-        background-color: #ffa424;
+        color: #4E4D53;
+        background-color: #E4650E;
         transition: 300ms;
     }
 

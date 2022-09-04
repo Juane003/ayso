@@ -20,14 +20,14 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #ffa424;
+    color: #E4650E;
     border-radius: 5%;
     height: 1rem;
     padding: 1.5rem;
     width: 6rem;
     margin: 5% 0;
-    border: 1px solid #ffa424;
-    background-color: #789dca;
+    border: 1px solid #E4650E;
+    background-color: transparent;
 }
 
 
@@ -45,8 +45,8 @@
     }
 
     .download-btn:hover {
-        color: #789dca;
-        background-color: #ffa424;
+        color: #4E4D53;
+        background-color: #E4650E;
         transition: 300ms;
     }
 

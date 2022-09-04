@@ -19,10 +19,10 @@ const ContactForm = () => {
   };
 
 	return (
-		<div className="form-wrapper" id="contacto">
+		<div className="form-wrapper">
 			<form ref={form} onSubmit={sendEmail}>
 				<input className="email-input" name="email" type="email" placeholder="Email" id="email" required></input>
-				<input className="message-input" name="message" id="message" type="text" placeholder="Escribe tu mensaje aqui!" required/>
+				<textarea className="message-input" name="message" id="message" type="text" placeholder="Escribe tu mensaje aqui!" required/>
 				<div className="submit-container">
 					<input className="submit-input" type="submit" value="Enviar"/>
 				</div>
